@@ -1,0 +1,210 @@
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu&display=swap');
+
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffd5e5;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  font-size: 1.1rem;
+  padding: .5rem 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+/* Utility Classes */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Navbar Styling */
+#main-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#main-navbar ul {
+  display: flex;
+}
+
+#main-navbar ul li a {
+  display: block;
+  padding: 2rem;
+  font-size: 1.1rem;
+}
+#main-navbar ul li a:hover {
+  color: #fff;
+}
+
+#main-navbar .logo {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+#main-navbar h1 {
+  color: #333;
+}
+
+#main-navbar h1:hover {
+  color: #fff;
+}
+
+/* Header content Styling */
+#header-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8rem;
+  align-items: center;
+}
+
+#header-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1.3rem;
+}
+
+#header-content #email {
+  display: block;
+  padding: .5rem .8rem;
+  border-radius: 5px;
+  margin-bottom: .5rem;
+  border: 2px solid #333;
+  width: 50%;
+  margin: auto;
+}
+
+#header-content button {
+  display: block;
+  padding: .5rem .8rem;
+  border: none;
+  background: #F1C40E;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 15rem;
+}
+
+/* Features section Styling */
+#features {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#features .grid {
+  display: flex;
+  padding: 1rem 0;
+}
+
+#features .grid .icon {
+  padding: 1rem 4rem;
+  color: #F1C40E;
+}
+
+#features .grid .description h2 {
+  font-size: 1.3rem;
+}
+
+/* Video Section Styling */
+#how-it-works {
+  display: block;
+  padding: 4rem;
+  margin: auto;
+}
+
+#how-it-works #video {
+  margin: 0 13rem;;
+  height: 30rem;
+  width: 40rem;
+}
+
+/* Pricing Section Styling */
+#pricing {
+  display: flex;
+  margin: 1rem;
+  justify-content: center;
+}
+
+#pricing .product {
+  padding: 4rem;
+  margin: 2rem;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+#pricing .product .level {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  background: #EEEEEE;
+  border-bottom: 1px solid #333;
+}
+
+#pricing .product h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#pricing .product ul li {
+  padding: .4rem 0;
+  text-align: center;
+}
+
+#pricing .product .btn {
+  background: #F1C40E;
+  color: #333;
+  border: none;
+  padding: .5rem .8rem;
+  cursor: pointer;
+  margin: .5rem 0;
+  text-align: center;
+}
+
+/* Footer Section Styling */
+#main-footer {
+  display: flex;
+  flex-direction: column;
+  background: #81f5ff;
+  color: #333;
+  align-items: flex-end;
+}
+
+#main-footer ul {
+  display: flex;
+}
+
+#main-footer ul li a {
+  display: block;
+  padding: 1rem;
+}
+
+#main-footer ul li a:hover {
+  color: #fff;
+}
+
+#main-footer p {
+  font-size: 1rem;
+}
